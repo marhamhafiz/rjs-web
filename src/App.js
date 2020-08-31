@@ -13,7 +13,7 @@ function App() {
         <Navbar.Brand href="#home">RJS-Web</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="ml-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#love">Love</Nav.Link>
             <NavDropdown title="Task" id="collasible-nav-dropdown">
@@ -24,9 +24,6 @@ function App() {
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav>
-            <Nav.Link href="#deets">Your Name</Nav.Link>
-          </Nav>
         </Navbar.Collapse>
       </Navbar>
       <header className="App-header">
@@ -36,9 +33,6 @@ function App() {
           tryin loving yourself ;)
         </p>
       </header>
-      <body className="App-body">
-        Wow Man Drunken Baby
-      </body>
     </div>
   );
 }
