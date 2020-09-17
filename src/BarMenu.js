@@ -7,13 +7,13 @@ function BarMenu() {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#home">RJS-Web</Navbar.Brand>
+                <Navbar.Brand href="/">RJS-Web</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/love">Love</Nav.Link>
-                    <Nav.Link href="/task">Task</Nav.Link>
+                    <Nav.Link href="/" activeKey="/">Home</Nav.Link>
+                    <Nav.Link href="/love" activeKey="/love">Love</Nav.Link>
+                    <Nav.Link href="/task" activeKey="/task">Task</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>
